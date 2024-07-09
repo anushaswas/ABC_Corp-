@@ -1,0 +1,16 @@
+apiversion:
+ kind:service
+ metadata:
+ spec:
+  type:loadbalancer
+  ip: <publicip>
+  port: 80
+  targetport: 8080
+ selector:
+  app: webapp
+  
+   
+  
+
+  
+
